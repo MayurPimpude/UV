@@ -43,9 +43,9 @@ uv add --script main.py 'numpy' 'matplotlib'
 ## Project Structure
 
 <project-name>/
-├── pyproject.toml
-├── main.py
-└── README.md
+├── pyproject.toml # Project metadata and dependencies
+├── main.py # Main Python script
+└── README.md # Project documentation
 
 
 ## 🛠️ Requirements
