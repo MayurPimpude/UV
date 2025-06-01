@@ -37,6 +37,7 @@ cd myproject
 uv add requests
 uv run main.py
 uv run --with 'pandas' standalone.py
+uv add --script main.py 'numpy' 'matplotlib'
 ```
 
 ## Project Structure
@@ -49,6 +50,3 @@ uv run --with 'pandas' standalone.py
 
 ## 🛠️ Requirements
 Python ≥ 3.8
-
-uv add --script main.py 'numpy' 'matplotlib'
-```
